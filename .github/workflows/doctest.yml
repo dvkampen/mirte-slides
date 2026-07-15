@@ -8,11 +8,11 @@ jobs:
     strategy:
       matrix:
         python-version: ["3.11"] # "3.7", , "3.9", "3.10", "3.11"
-
+        mirte-type: ["lite"] # "lite", "basic"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
           cache: 'pip'
@@ -21,10 +21,10 @@ jobs:
           sudo apt update
           sudo apt install libenchant-2-dev -y
           python -m pip install --upgrade pip
-          cd lite/
+          cd ${{ matrix.mirte-type }}/
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Test external urls
         run: |
           pwd
-          cd lite/
+          cd ${{ matrix.mirte-type }}/
           make linkcheck 

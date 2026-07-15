@@ -5,10 +5,10 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-22.04
-    # container:
-    #   image: althack/ros:noetic-dev
+    env:
+      mirte_types: "lite basic"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Install dependencies lite
         run: |
           sudo apt update
@@ -16,32 +16,46 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 --version
           sudo apt install python3-venv -y
-          cd lite
-          python3 -m venv docs-env
-          . docs-env/bin/activate
-          pip install -r requirements.txt
-          playwright install --with-deps
-          make revealjs
-          cd _build/revealjs
-          zip -r ../../site.zip .
-          cd ../../
+          for mirte_type in ${{ env.mirte_types }}; do
+            echo "Installing dependencies for $mirte_type"
+            cd $mirte_type
+            python3 -m venv docs-env
+            . docs-env/bin/activate
+            pip install -r requirements.txt
+            playwright install --with-deps
+            cd ..
+          done
+      - name: Build the presentation
+        run: |
+          mkdir site_out
+          for mirte_type in ${{ env.mirte_types }}; do
+            echo "Building presentation for $mirte_type"
+            cd $mirte_type
+            . docs-env/bin/activate
+            make revealjs
+            cd _build/revealjs
+            cp ./ ../../../site_out/$mirte_type -r
+            cd ../../../
+          done
+          cp static/* site_out/ -r
+          zip -r site_out.zip site_out
       # - name: install nodejs for archive script
       #   run: |
       #     curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
       #     sudo apt-get install -y nodejs        
       - name: Archive production artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: dist
           path: |
-            lite/_build/revealjs
-      - name: move files for site
-        run: |
-          mkdir site_out
-          mv lite/_build/revealjs site_out/lite
-          mv static/* site_out/
+            site_out/
+      # - name: move files for site
+      #   run: |
+      #     mkdir site_out
+      #     mv lite/_build/revealjs site_out/lite
+      #     mv static/* site_out/
       - name: Upload as a github-pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with: 
           path: site_out/
 
@@ -64,6 +78,6 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
         # with:
         #   artifact_name: dist
