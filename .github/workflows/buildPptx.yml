@@ -60,13 +60,13 @@ jobs:
           name: act_dist
           path: |
             # revealjs.zip
-            {{ matrix.mirte-type }}/slides_{{ matrix.mirte-type }}.pdf
-            {{ matrix.mirte-type }}/slides_{{ matrix.mirte-type }}.pptx
+            ${{ matrix.mirte-type }}/slides_${{ matrix.mirte-type }}.pdf
+            ${{ matrix.mirte-type }}/slides_${{ matrix.mirte-type }}.pptx
       - name: Push to release
         uses: softprops/action-gh-release@v3
         if: startsWith(github.ref, 'refs/tags/')
         with:
             files: |
-              {{ matrix.mirte-type }}/slides_{{ matrix.mirte-type }}.pdf
-              {{ matrix.mirte-type }}/slides_{{ matrix.mirte-type }}.pptx
+              ${{ matrix.mirte-type }}/slides_${{ matrix.mirte-type }}.pdf
+              ${{ matrix.mirte-type }}/slides_${{ matrix.mirte-type }}.pptx
             generate_release_notes: true
