@@ -4,7 +4,7 @@
 
 Leer obstakels ontwijken met de MIRTE basic robot
 
-.. image:: _static/media/mirte-lite/mirte-lite-les1/robots.png
+.. image:: _static/media/mirte-basic/mirte-basic-les1/robots.png
     :width: 450px
 
 

@@ -1,15 +1,21 @@
 name: Build pptx
 
-on: [push, pull_request]
+on: 
+  push:
+  pull_request:
+
 
 jobs:
   build_pptx:
 
     runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        mirte-type: [lite, basic]
     # container:
     #   image: althack/ros2:rolling-dev
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Install dependencies
         run: |
           sudo apt update
@@ -18,7 +24,7 @@ jobs:
           sudo cp Overpass-3.0.5/desktop-fonts/* /usr/local/share/fonts -r
           fc-cache -f -v
           sudo apt install python3-venv zip libreoffice npm -y
-          cd lite/
+          cd ${{ matrix.mirte-type }}/
           python3 -m venv sphinx-env
           . sphinx-env/bin/activate
           pip install -r requirements.txt
@@ -34,51 +40,38 @@ jobs:
           cat _sass/custom.scss
       - name: Build the presentation
         run: |
-          cd lite/
+          cd ${{ matrix.mirte-type }}/
           . sphinx-env/bin/activate
           make revealjs
           cd _build/revealjs
           zip -r ../../revealjs.zip .
-          decktape --chrome-arg=--no-sandbox ./index.html ../../slides_lite.pdf
+          decktape --chrome-arg=--no-sandbox ./index.html ../../slides_${{ matrix.mirte-type }}.pdf
           cd ../../
-          soffice --infilter="impress_pdf_import" --convert-to pptx slides_lite.pdf
+          soffice --infilter="impress_pdf_import" --convert-to pptx slides_${{ matrix.mirte-type }}.pdf
       # - name: Archive production artifacts
       #   uses: actions/upload-artifact@v4
       #   with:
       #     name: dist
       #     path: |
       #       _build/revealjs
-      - name: Archive production artifacts for act
-        uses: actions/upload-artifact@v4
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v7
         with:
-          name: act_dist
           path: |
-            # revealjs.zip
-            lite/slides_lite.pdf
-            lite/slides_lite.pptx
-      # - name: Upload as a github-pages artifact
-      #   uses: actions/upload-pages-artifact@v3
-      #   with: 
-      #     path: _build/revealjs
+            ${{ matrix.mirte-type }}/slides_${{ matrix.mirte-type }}.pptx
+          archive: false
 
-  # deploy:
-  #   # Add a dependency to the build job
-  #   needs: build_pptx
-  #   if: github.ref == 'refs/heads/main'
-  #   permissions:
-  #     pages: write      # to deploy to Pages
-  #     id-token: write   # to verify the deployment originates from an appropriate source
-
-  #   # Deploy to the github-pages environment
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-
-  #   # Specify runner + deployment step
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v4
-  #       # with:
-  #       #   artifact_name: dist
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          path: |
+            ${{ matrix.mirte-type }}/slides_${{ matrix.mirte-type }}.pdf
+          archive: false
+      - name: Push to release
+        uses: softprops/action-gh-release@v3
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+            files: |
+              ${{ matrix.mirte-type }}/slides_${{ matrix.mirte-type }}.pdf
+              ${{ matrix.mirte-type }}/slides_${{ matrix.mirte-type }}.pptx
+            generate_release_notes: true
