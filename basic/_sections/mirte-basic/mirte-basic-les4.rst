@@ -4,7 +4,7 @@
 Les 4: Offline programmeren
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-ingekleurd-op-lijn.png
+   :data-background-image: _static/media/mirte-basic/mirte-basic-les1/mirte-ingekleurd-op-lijn.png
 
 
 **Doel**
@@ -75,7 +75,7 @@ Les 4: Offline programmeren
    Als het goed is ben je na het uitvoeren van lijst 2 in de positie geeïndigd die hieronder wordt afgebeeld, maar eindigde je na het uitvoeren van lijst 1 in een hele andere houding. Je moet dus met programmeren de taken heel specifiek uitleggen, anders kan er zo maar iets anders gebeuren. 
 
 
-.. image:: _static/media/mirte-lite/mirte-lite-les4/houding_persoon.png
+.. image:: _static/media/mirte-basic/mirte-basic-les4/houding_persoon.png
    :width: 250px
 
 
@@ -87,7 +87,7 @@ Les 4: Offline programmeren
    Nu mag je zelf proberen om een opdracht te schrijven, zodat deze goed uitgevoerd kan worden. Begin met een pen en een leeg vel papier op tafel. Omschrijf alle stappen die nodig zijn om te eindigen met 5 cirkels en 3 vierkanten getekend op het vel papier. Test of je stappenplan klopt door het aan iemand anders te geven die het moet uitvoeren. 
 
 
-.. image:: _static/media/mirte-lite/mirte-lite-les4/tekenopdract_vierkant_rond.png
+.. image:: _static/media/mirte-basic/mirte-basic-les4/tekenopdract_vierkant_rond.png
    :width: 500px
 
 
@@ -99,7 +99,7 @@ Les 4: Offline programmeren
    Sommigen opdrachten voor robots kunnen heel erg lang zijn. Daarom willen we de opdrachten zo kort mogelijk, maar wel duidelijk opschrijven. Gebruik het voorbeeld hieronder. Kun je met deze manier de tekenopdracht van de pagina hiervoor korter opschrijven? 
 
 
-.. image:: _static/media/mirte-lite/mirte-lite-les4/code_kort.png
+.. image:: _static/media/mirte-basic/mirte-basic-les4/code_kort.png
    :width: 500px
 
 
@@ -149,14 +149,14 @@ Les 4: Offline programmeren
 
    .. container:: half smaller40
     
-      .. image:: _static/media/mirte-lite/mirte-lite-les4/plattegrond_tu_campus.jpg
+      .. image:: _static/media/mirte-basic/mirte-basic-les4/plattegrond_tu_campus.jpg
            :width: 350px
       Illustratie door Nynke Krabbenborg
       
 
    .. container:: half smaller50
 
-      Klik `hier <_static/media/mirte-lite/mirte-lite-les4/plattegrond_tu_campus.jpg>`_ om de afbeelding te downloaden of te vergroten.
+      Klik `hier <_static/media/mirte-basic/mirte-basic-les4/plattegrond_tu_campus.jpg>`_ om de afbeelding te downloaden of te vergroten.
 
 
       Tip: Print de plattegrond op meerdere A4'tjes en plak deze aan elkaar of tape de vakken van de plattegrond op de grond, zodat de robot daaroverheen kan rijden. 
@@ -173,7 +173,7 @@ Les 4: Offline programmeren
 .. raw:: html
 
    <div class="popup">
-   <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les1/informatie-i.png" style="width:auto; height:50px;">
+   <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les1/informatie-i.png" style="width:auto; height:50px;">
    <span class="popuptext smaller40">Tip voor in de klas: Laat (groepjes) leerlingen routes voor elkaar bedenken en deze uitvoeren. Zo rijdt iedereen een andere route over de plattegrond. </span>
    </div>
 
@@ -187,7 +187,7 @@ Les 4: Offline programmeren
 --------------------
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-end-of-line.png
+   :data-background-image: _static/media/mirte-basic/mirte-basic-les1/mirte-end-of-line.png
 
 .. container:: smaller70
   

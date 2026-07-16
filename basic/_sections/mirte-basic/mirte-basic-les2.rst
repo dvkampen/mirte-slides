@@ -4,7 +4,7 @@
 Les 2: Ontwerpen en bouwen
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-ingekleurd-op-lijn.png
+   :data-background-image: _static/media/mirte-basic/mirte-basic-les1/mirte-ingekleurd-op-lijn.png
 
 
 **Doel**
@@ -44,7 +44,7 @@ Les 2: Ontwerpen en bouwen
     <div class="row">
     <div class="column">    
     <div class="popup">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/ijsbeer-unsplash-evablue.jpg" style="width:auto; height:200px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/ijsbeer-unsplash-evablue.jpg" style="width:auto; height:200px;">
     <span class="popuptext smaller40">Foto door Eva Blue via <a href="https://unsplash.com/photos/two-polar-bears-swimming-in-water-wmdVFw9ubKs">Unsplash</a></span>
     </div>
 
@@ -52,7 +52,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="column">
     <div class="popup">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/guidedog-unsplash-mattseymour.jpg" style="width:auto; height:200px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/guidedog-unsplash-mattseymour.jpg" style="width:auto; height:200px;">
     <span class="popuptext smaller40">Foto door Matt Seymour via <a href="https://unsplash.com/photos/man-in-black-jacket-and-blue-denim-jeans-walking-with-white-and-black-short-coated-dog-dQqO28G0kE4">Unsplash</a></span>
     </div>
 
@@ -77,7 +77,7 @@ Les 2: Ontwerpen en bouwen
 
         **Wat heb je nodig?**
 
-        - Kapje voor de robot (download deze `hier <_static/media/mirte-lite/mirte-lite-les2/uitknipbestand_kap.pdf>`_)
+        - Kapje voor de robot (download deze `hier <_static/media/mirte-basic/mirte-basic-les2/uitknipbestand_kap.pdf>`_)
         - Lijm of dubbelzijdig tape
 
 
@@ -92,7 +92,7 @@ Les 2: Ontwerpen en bouwen
 
    Begin met het vouwen van alle vouwlijnen. In de tekening hieronder zijn deze lijnen in het blauw weergegeven. 
 
-.. image:: _static/media/mirte-lite/mirte-lite-les2/plakvouwinstructies_stap1.svg
+.. image:: _static/media/mirte-basic/mirte-basic-les2/plakvouwinstructies_stap1.svg
    :width: 450px
 
 
@@ -130,7 +130,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="row">
     <div class="column">
-        <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/plakvouwinstructies_stap2.svg" style="width:auto; height:300px;">
+        <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/plakvouwinstructies_stap2.svg" style="width:auto; height:300px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">plakranden</div>
@@ -138,7 +138,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-        <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/mirte_lite_kap.png" style="width:auto; height:300px;">
+        <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/mirte_lite_kap.png" style="width:auto; height:300px;">
     <div style="clear: both;"></div>
 
     <div class="smaller50">gevouwen en geplakte kap</div>
@@ -153,7 +153,7 @@ Les 2: Ontwerpen en bouwen
 
 .. container:: smaller70
 
-   Voor de volgende opdracht heb je een werkblad nodig. Deze kun je `hier <_static/media/mirte-lite/mirte-lite-les2/robot-ontwerp.pdf>`_ downloaden. 
+   Voor de volgende opdracht heb je een werkblad nodig. Deze kun je `hier <_static/media/mirte-basic/mirte-basic-les2/robot-ontwerp.pdf>`_ downloaden. 
 
 
 **Ontwerpcriteria**
@@ -171,7 +171,7 @@ Les 2: Ontwerpen en bouwen
 .. raw:: html
    
    <div class="popup">
-        <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les1/informatie-i.png" style="width:auto; height:50px;">
+        <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les1/informatie-i.png" style="width:auto; height:50px;">
         <span class="popuptext smaller40">Sommige dieren of insecten kunnen vliegen of hebben vleugels. Natuurlijk mag je jouw robot wel versieren als zo een soort dier of insect, maar houdt er rekening mee dat de robot zelf niet kan vliegen. De robot die gebruikt zal worden voor deze opdracht heeft 3 wielen waar die zich mee voortbeweegt. </span>
         </div>
 
@@ -183,7 +183,7 @@ Les 2: Ontwerpen en bouwen
 
    Een ontwerp begint altijd bij het bedenken van ideeën. Een brainstorm is een techniek om zo veel mogelijk ideeën te kunnen bedenken. Denk na over op welk dier of insect jouw robot moet gaan lijken en schrijf deze ideeën op in een mindmap. Niks is gek of fout. 
 
-.. image:: _static/media/mirte-lite/mirte-lite-les2/mindmap-voorbeeld.png
+.. image:: _static/media/mirte-basic/mirte-basic-les2/mindmap-voorbeeld.png
    :width: 450px
 
 
@@ -194,7 +194,7 @@ Les 2: Ontwerpen en bouwen
 
    Kies jouw 3 leukste ideeën uit de brainstorm en bedenk voor deze ideeën een taak die deze robot goed zou moeten kunnen. Schrijf de ideeën en bijbehorende taken op in het tabel op het werkblad.
 
-.. image:: _static/media/mirte-lite/mirte-lite-les2/taak-tabel-voorbeeld.png
+.. image:: _static/media/mirte-basic/mirte-basic-les2/taak-tabel-voorbeeld.png
    :width: 800px
 
 
@@ -205,7 +205,7 @@ Les 2: Ontwerpen en bouwen
 
    Kies jouw favoriete idee voor een robotdier of -insect uit en maak voor dit idee een programma van eisen. Dit zijn de regels waar jouw robotdier of -insect straks aan moet gaan voldoen.
 
-.. image:: _static/media/mirte-lite/mirte-lite-les2/eisen-tabel-voorbeeld.png
+.. image:: _static/media/mirte-basic/mirte-basic-les2/eisen-tabel-voorbeeld.png
    :width: 800px
 
 
@@ -225,7 +225,7 @@ Les 2: Ontwerpen en bouwen
    Nu mag je jouw ontwerp voor jouw robot ook echt gaan maken. Controleer of de lijm van het kapje goed opgedroogd is. Zorg ervoor dat jouw robot eruit komt te zien als het ontwerp dat je net hebt getekend.
 
 
-.. image:: _static/media/mirte-lite/mirte-lite-les2/vuurvlieg-kap.png
+.. image:: _static/media/mirte-basic/mirte-basic-les2/vuurvlieg-kap.png
    :width: 400px
 
 
@@ -258,7 +258,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="row">
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/frame.png" style="width:auto; height:110px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/frame.png" style="width:auto; height:110px;">
     <div style="clear: both;"></div>
     
     <div class="smaller40">frame (9 onderdelen)</div>
@@ -266,7 +266,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/schroeven_moeren.png" style="width:auto; height:110px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/schroeven_moeren.png" style="width:auto; height:110px;">
     <div style="clear: both;"></div>
     
     <div class="smaller40">4 schroeven & moeren</div>
@@ -274,7 +274,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/batterijhouder.png" style="width:auto; height:110px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/batterijhouder.png" style="width:auto; height:110px;">
     <div style="clear: both;"></div>
 
     <div class="smaller40">batterijhouder & 3 AA-batterijen</div>
@@ -282,7 +282,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/breadboard.png" style="width:auto; height:110px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/breadboard.png" style="width:auto; height:110px;">
     <div style="clear: both;"></div>
 
     <div class="smaller40">breadboard</div>
@@ -290,7 +290,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/motor_driver.png" style="width:auto; height:110px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/motor_driver.png" style="width:auto; height:110px;">
     <div style="clear: both;"></div>
 
     <div class="smaller40">motor driver</div>
@@ -317,7 +317,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="row">
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/obstakelsensoren.png" style="width:auto; height:110px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/obstakelsensoren.png" style="width:auto; height:110px;">
     <div style="clear: both;"></div>
 
     <div class="smaller40">2 obstakelsensoren</div>
@@ -325,7 +325,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/motoren.png" style="width:auto; height:110px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/motoren.png" style="width:auto; height:110px;">
     <div style="clear: both;"></div>
 
     <div class="smaller40">2 motoren</div>
@@ -333,7 +333,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/wielen_kogelwiel.png" style="width:auto; height:110px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/wielen_kogelwiel.png" style="width:auto; height:110px;">
     <div style="clear: both;"></div>
 
     <div class="smaller40">2 wielen + 1 kogelwiel</div>
@@ -341,7 +341,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/schroevendraaier.png" style="width:auto; height:110px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/schroevendraaier.png" style="width:auto; height:110px;">
     <div style="clear: both;"></div>
 
     <div class="smaller40">schroevendraaier</div>
@@ -377,7 +377,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="row">
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/0_step1.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/0_step1.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 1</div>
@@ -385,7 +385,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/1_step1.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/1_step1.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 2</div>
@@ -393,7 +393,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/1_step2.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/1_step2.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
 
     <div class="smaller50">stap 3</div>
@@ -428,7 +428,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="row">
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/1_step4.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/1_step4.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 4</div>
@@ -436,7 +436,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/2_step1.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/2_step1.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 5</div>
@@ -444,7 +444,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/3_step0.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/3_step0.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
 
     <div class="smaller50">stap 6</div>
@@ -479,7 +479,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="row">
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/3_step1.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/3_step1.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 7</div>
@@ -487,7 +487,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/3_step3.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/3_step3.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 8</div>
@@ -495,7 +495,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/4_step0.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/4_step0.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
 
     <div class="smaller50">stap 9</div>
@@ -530,7 +530,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="row">
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/4_step2.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/4_step2.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 10</div>
@@ -539,7 +539,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/4_step3.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/4_step3.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 11</div>
@@ -547,7 +547,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/5_step1.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/5_step1.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
 
     <div class="smaller50">stap 12</div>
@@ -582,7 +582,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="row">
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/6_step1.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/6_step1.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 13</div>
@@ -590,7 +590,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/6_step2.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/6_step2.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 14</div>
@@ -598,7 +598,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/6_step3.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/6_step3.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
 
     <div class="smaller50">stap 15</div>
@@ -633,7 +633,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="row">
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/6_step4.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/6_step4.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 16</div>
@@ -641,7 +641,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/7_step0.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/7_step0.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 17</div>
@@ -649,7 +649,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/7_step2.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/7_step2.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
 
     <div class="smaller50">stap 18</div>
@@ -684,7 +684,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="row">
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/6_step6.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/6_step6.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 19</div>
@@ -692,7 +692,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/6_step7.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/6_step7.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
 
     <div class="smaller50">stap 20</div>
@@ -700,7 +700,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/6_step9.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/6_step9.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 21</div>
@@ -734,7 +734,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="row">
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/7_step4.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/7_step4.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 22</div>
@@ -742,7 +742,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/7_step6.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/7_step6.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 23</div>
@@ -750,7 +750,7 @@ Les 2: Ontwerpen en bouwen
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/tutorial/8_step0.png" style="width:auto; height:320px;">
+    <img loading="lazy" src="_static/media/mirte-basic/mirte-basic-les2/tutorial/8_step0.png" style="width:auto; height:320px;">
     <div style="clear: both;"></div>
 
     <div class="smaller50">stap 24</div>
@@ -767,7 +767,7 @@ Les 2: Ontwerpen en bouwen
 
    Bevestig het kapje met een splitpen vast aan de robot. Er is plek voor twee splitpennen, maar één moet genoeg zijn. Klap vervolgens de kap over de robot heen, zodat alle onderdelen bedekt worden door de kap. 
 
-.. image:: _static/media/mirte-lite/mirte-lite-les2/splitpen_bevestigen.png
+.. image:: _static/media/mirte-basic/mirte-basic-les2/splitpen_bevestigen.png
    :width: 400px
 
 
@@ -775,7 +775,7 @@ Les 2: Ontwerpen en bouwen
 --------------------
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-end-of-line.png
+   :data-background-image: _static/media/mirte-basic/mirte-basic-les1/mirte-end-of-line.png
 
 .. container:: smaller70
   
