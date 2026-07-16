@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        mirte-type: [lite]
+        mirte-type: [lite, basic]
     # container:
     #   image: althack/ros2:rolling-dev
     steps:

@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         python-version: ["3.11"] # "3.7", , "3.9", "3.10", "3.11"
-        mirte-type: ["lite"] # "lite", "basic"
+        mirte-type: ["lite", "basic"] # "lite", "basic"
     steps:
       - uses: actions/checkout@v7
       - name: Set up Python ${{ matrix.python-version }}
